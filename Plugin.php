@@ -15,7 +15,7 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
  * @package HighlightJS
  * @author Nobu121
  * @version 1.0.0
- * @link 
+ * @link https://github.com/nobu121/typecho-highlightjs
  */
 class HighlightJS_Plugin implements PluginInterface
 {

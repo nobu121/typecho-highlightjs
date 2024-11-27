@@ -8,7 +8,6 @@
 - ⚡ 自动检测深色模式变化
 - 🎯 可自定义主题样式
 
-
 ## 安装方法
 
 1. 下载本插件
@@ -25,12 +24,13 @@
   - 默认值：`document.documentElement.classList.contains("dark")`
   - 可根据您的主题定制，例如：
     ```javascript
-    document.documentElement.getAttribute('data-theme') === 'dark'
+    document.documentElement.getAttribute("data-theme") === "dark";
     ```
 
 ### 高级配置
 
 - **深色模式监听属性**：监听哪些 HTML 属性的变化来触发主题切换
+
   - 默认值：`class`
   - 多个属性用逗号分隔
 
@@ -72,6 +72,7 @@
 ## 更新日志
 
 ### 1.0.0
+
 - 初始版本发布
 - 支持明暗主题自动切换
 - 添加过渡动画效果
@@ -79,7 +80,7 @@
 
 ## 技术支持
 
-如有问题或建议，请访问 [项目主页](您的项目链接) 提交 Issue。
+如有问题或建议，请访问 [项目主页](https://github.com/nobu121/typecho-highlightjs) 提交 Issue。
 
 ## 许可证
 
